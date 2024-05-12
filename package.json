@@ -1,0 +1,23 @@
+{
+  "name": "qr",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "qrcode.vue": "^3.4.1",
+    "vite-plugin-mkcert": "^1.17.5",
+    "vue": "^3.4.21",
+    "vue-qrcode-reader": "^5.5.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
